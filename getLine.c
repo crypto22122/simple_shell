@@ -28,7 +28,6 @@ if (r > 0)
 {
 if ((*buf)[r - 1] == '\n')
 {
-
 (*buf)[r - 1] = '\0'; /* remove trailing newline */
 r--;
 }
